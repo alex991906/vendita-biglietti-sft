@@ -1314,7 +1314,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="iSwyEfEuwjV-Uev-q6fZ" name="Page-4">
-    <mxGraphModel dx="1556" dy="2013" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="647" dy="1957" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1363,13 +1363,13 @@
         <mxCell id="aCbTm_IURq9RlGZn-Mxh-19" value="&lt;b&gt;TracciaOraria&lt;/b&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" vertex="1" parent="1">
           <mxGeometry x="44" y="-254" width="189" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="aCbTm_IURq9RlGZn-Mxh-20" value="&lt;u&gt;&lt;b&gt;id_corsa (INT) (FK)&lt;/b&gt;&lt;/u&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;&lt;u&gt;id_stazione (INT) (FK)&lt;/u&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;orario passaggio (TIME)&lt;/span&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="aCbTm_IURq9RlGZn-Mxh-19">
+        <mxCell id="aCbTm_IURq9RlGZn-Mxh-20" value="&lt;u&gt;&lt;b&gt;id_corsa (INT)&lt;/b&gt;&lt;/u&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;&lt;u&gt;id_stazione (INT)&lt;/u&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;orario passaggio (TIME)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="aCbTm_IURq9RlGZn-Mxh-19">
           <mxGeometry y="50" width="189" height="55" as="geometry" />
         </mxCell>
         <mxCell id="aCbTm_IURq9RlGZn-Mxh-46" value="Convoglio_Carrozza" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="101.5" y="-1096" width="153" height="60" as="geometry" />
+          <mxGeometry x="101.5" y="-1083" width="153" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aCbTm_IURq9RlGZn-Mxh-47" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="aCbTm_IURq9RlGZn-Mxh-46" target="aCbTm_IURq9RlGZn-Mxh-9">
+        <mxCell id="aCbTm_IURq9RlGZn-Mxh-47" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.425;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aCbTm_IURq9RlGZn-Mxh-46" target="aCbTm_IURq9RlGZn-Mxh-9">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="370" y="-970" as="sourcePoint" />
             <mxPoint x="530" y="-970" as="targetPoint" />
@@ -1391,10 +1391,10 @@
             <mxPoint x="12" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aCbTm_IURq9RlGZn-Mxh-54" value="convoglio_id (PK,FK)&lt;div&gt;codice_carrozza (PK,FK)&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=#FFF2CC;" vertex="1" parent="1">
-          <mxGeometry x="10" y="-1156" width="166" height="57" as="geometry" />
+        <mxCell id="aCbTm_IURq9RlGZn-Mxh-54" value="convoglio_id, codice_carrozza (PK)&lt;br&gt;&lt;div&gt;convoglio_id (FK)&lt;/div&gt;&lt;div&gt;codice_carrozza (FK)&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=#FFF2CC;" vertex="1" parent="1">
+          <mxGeometry x="14" y="-1162" width="249" height="68" as="geometry" />
         </mxCell>
-        <mxCell id="aCbTm_IURq9RlGZn-Mxh-55" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.934;entryY=0.752;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aCbTm_IURq9RlGZn-Mxh-46" target="aCbTm_IURq9RlGZn-Mxh-54">
+        <mxCell id="aCbTm_IURq9RlGZn-Mxh-55" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.553;entryY=0.996;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aCbTm_IURq9RlGZn-Mxh-46" target="aCbTm_IURq9RlGZn-Mxh-54">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="205" y="-1029" as="sourcePoint" />
             <mxPoint x="365" y="-1029" as="targetPoint" />
@@ -1409,7 +1409,7 @@
             <mxPoint x="505" y="-867" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aCbTm_IURq9RlGZn-Mxh-59" value="(0...1)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aCbTm_IURq9RlGZn-Mxh-57">
+        <mxCell id="aCbTm_IURq9RlGZn-Mxh-59" value="(0..1)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aCbTm_IURq9RlGZn-Mxh-57">
           <mxGeometry x="-0.8594" relative="1" as="geometry">
             <mxPoint x="13" y="-9" as="offset" />
           </mxGeometry>
@@ -1472,7 +1472,7 @@
           <mxGeometry y="-793" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aCbTm_IURq9RlGZn-Mxh-72" value="Corse_Arrivo" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="116" y="-705" width="120" height="60" as="geometry" />
+          <mxGeometry x="113" y="-705" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aCbTm_IURq9RlGZn-Mxh-74" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.002;entryY=0.059;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aCbTm_IURq9RlGZn-Mxh-71" target="aCbTm_IURq9RlGZn-Mxh-11">
           <mxGeometry relative="1" as="geometry">
