@@ -1314,7 +1314,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="iSwyEfEuwjV-Uev-q6fZ" name="Page-4">
-    <mxGraphModel dx="1815" dy="2154" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1556" dy="2013" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1355,10 +1355,10 @@
           <mxGeometry y="50" width="296" height="143" as="geometry" />
         </mxCell>
         <mxCell id="aCbTm_IURq9RlGZn-Mxh-16" value="&lt;b&gt;Prenotazioni&lt;/b&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" vertex="1" parent="1">
-          <mxGeometry x="349.5" y="-485" width="299" height="179" as="geometry" />
+          <mxGeometry x="349.5" y="-485" width="299" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="aCbTm_IURq9RlGZn-Mxh-17" value="&lt;div&gt;&lt;b&gt;&lt;u&gt;id_prenotazione (INT)&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;id_utente (INT)&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;stazione_partenza_id (INT)&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;stazione_arrivo_id (INT)&lt;/u&gt;&lt;/div&gt;&lt;div&gt;posto (INT)&lt;/div&gt;&lt;div&gt;costo (DECIMAL(8,2))&lt;/div&gt;&lt;div&gt;stato_pagamento (ENUM: Pending/Completed/Failed)&lt;/div&gt;&lt;div&gt;stato (ENUM: Attiva/Cancellata)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="aCbTm_IURq9RlGZn-Mxh-16">
-          <mxGeometry y="50" width="299" height="129" as="geometry" />
+        <mxCell id="aCbTm_IURq9RlGZn-Mxh-17" value="&lt;div&gt;&lt;b&gt;&lt;u&gt;id_prenotazione (INT)&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;id_utente (INT)&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;id_corsa (INT)&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;stazione_partenza_id (INT)&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;stazione_arrivo_id (INT)&lt;/u&gt;&lt;/div&gt;&lt;div&gt;posto (INT)&lt;/div&gt;&lt;div&gt;costo (DECIMAL(8,2))&lt;/div&gt;&lt;div&gt;stato_pagamento (ENUM: Pending/Completed/Failed)&lt;/div&gt;&lt;div&gt;stato (ENUM: Attiva/Cancellata)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="aCbTm_IURq9RlGZn-Mxh-16">
+          <mxGeometry y="50" width="299" height="140" as="geometry" />
         </mxCell>
         <mxCell id="aCbTm_IURq9RlGZn-Mxh-19" value="&lt;b&gt;TracciaOraria&lt;/b&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" vertex="1" parent="1">
           <mxGeometry x="44" y="-254" width="189" height="105" as="geometry" />
@@ -1664,7 +1664,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aCbTm_IURq9RlGZn-Mxh-123" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;id_corsa (FK)&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=#FFF2CC;" vertex="1" parent="1">
-          <mxGeometry x="318" y="-543" width="120" height="44" as="geometry" />
+          <mxGeometry x="294" y="-539" width="120" height="44" as="geometry" />
         </mxCell>
         <mxCell id="aCbTm_IURq9RlGZn-Mxh-124" value="" style="endArrow=none;html=1;rounded=0;exitX=0.996;exitY=0.497;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.185;entryY=0.875;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aCbTm_IURq9RlGZn-Mxh-112" target="aCbTm_IURq9RlGZn-Mxh-123">
           <mxGeometry relative="1" as="geometry">
