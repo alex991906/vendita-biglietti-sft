@@ -1115,7 +1115,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Copy of Page-4" id="U66JrPznxPSfKKvHRuOc">
-    <mxGraphModel dx="3329" dy="2078" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4074" dy="2482" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="pWBKbRSoprsYEjpUjVi2-0" />
         <mxCell id="pWBKbRSoprsYEjpUjVi2-1" parent="pWBKbRSoprsYEjpUjVi2-0" />
@@ -1494,7 +1494,7 @@
         <mxCell id="YxLc-Z2cT-VTbX0SRDtm-2" value="&lt;b&gt;Treno&lt;/b&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" vertex="1" parent="pWBKbRSoprsYEjpUjVi2-1">
           <mxGeometry x="142" y="28" width="296" height="193" as="geometry" />
         </mxCell>
-        <mxCell id="YxLc-Z2cT-VTbX0SRDtm-3" value="&lt;div&gt;&lt;b&gt;&lt;u&gt;id_treno&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;stazione_partenza&lt;/div&gt;&lt;div&gt;stazione_arrivo&lt;/div&gt;&lt;div&gt;ora_partenza&lt;/div&gt;&lt;div&gt;ora_arrivo&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;posti_occupati&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;costo_operativo&lt;/span&gt;&lt;/div&gt;&lt;div&gt;profitto&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="YxLc-Z2cT-VTbX0SRDtm-2">
+        <mxCell id="YxLc-Z2cT-VTbX0SRDtm-3" value="&lt;div&gt;&lt;b&gt;&lt;u&gt;id_treno&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;ora_partenza&lt;/div&gt;&lt;div&gt;ora_arrivo&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;posti_occupati&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;costo_operativo&lt;/span&gt;&lt;/div&gt;&lt;div&gt;profitto&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="YxLc-Z2cT-VTbX0SRDtm-2">
           <mxGeometry y="50" width="296" height="143" as="geometry" />
         </mxCell>
         <mxCell id="YxLc-Z2cT-VTbX0SRDtm-4" value="&lt;b&gt;Carrozza&lt;/b&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" vertex="1" parent="pWBKbRSoprsYEjpUjVi2-1">
@@ -1589,6 +1589,11 @@
             <mxPoint x="775" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="COu18sS3RJWgX7r5hSds-29" value="(1,1)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YxLc-Z2cT-VTbX0SRDtm-35">
+          <mxGeometry x="-0.619" y="-1" relative="1" as="geometry">
+            <mxPoint x="13" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="YxLc-Z2cT-VTbX0SRDtm-38" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="pWBKbRSoprsYEjpUjVi2-1" source="YxLc-Z2cT-VTbX0SRDtm-28" target="6cLLRvWZh63czB7KMmJ--0">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1028" y="930" as="sourcePoint" />
@@ -1638,10 +1643,10 @@
           <mxGeometry y="50" width="192" height="55" as="geometry" />
         </mxCell>
         <mxCell id="COu18sS3RJWgX7r5hSds-6" value="&lt;div&gt;&lt;b&gt;Subtratta&lt;/b&gt;&lt;/div&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" vertex="1" parent="pWBKbRSoprsYEjpUjVi2-1">
-          <mxGeometry x="352" y="421" width="192" height="105" as="geometry" />
+          <mxGeometry x="353" y="383" width="192" height="173" as="geometry" />
         </mxCell>
-        <mxCell id="COu18sS3RJWgX7r5hSds-7" value="&lt;div&gt;&lt;b&gt;&lt;u&gt;codice&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;nome&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="COu18sS3RJWgX7r5hSds-6">
-          <mxGeometry y="50" width="192" height="55" as="geometry" />
+        <mxCell id="COu18sS3RJWgX7r5hSds-7" value="&lt;div&gt;&lt;b&gt;&lt;u&gt;id_subtrata&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;available (boolean)&lt;/div&gt;&lt;div&gt;stazione_partenza&lt;/div&gt;&lt;div&gt;stazione_arrivo&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="COu18sS3RJWgX7r5hSds-6">
+          <mxGeometry y="50" width="192" height="123" as="geometry" />
         </mxCell>
         <mxCell id="COu18sS3RJWgX7r5hSds-11" value="Un treno è un convoglio che parte da stazione x e va verso stazione y con data ora&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-&lt;/div&gt;&lt;div&gt;Un biglietto si riferisce a una tratta&lt;/div&gt;&lt;div&gt;Una tratta si riferisce a un treno&lt;/div&gt;&lt;div&gt;Una tratta è composta da più sub tratte&lt;/div&gt;&lt;div&gt;-&lt;/div&gt;&lt;div&gt;TRACCIA ORARIA&lt;/div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp;l’insieme delle informazioni che sono legate ad un treno nello spazio tempo&lt;/div&gt;&lt;div&gt;(località e data/ora lungo il percorso)&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pWBKbRSoprsYEjpUjVi2-1">
           <mxGeometry x="888" y="-295" width="458" height="156" as="geometry" />
@@ -1675,6 +1680,17 @@
         </mxCell>
         <mxCell id="COu18sS3RJWgX7r5hSds-26" value="UN TRENO HA UNA STAZIONE DI PARTENZA E UNA DI ARRIVO&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;UNA CORSA HA UNA STAZIONE DI PARTENZA E UNA DI ARRIVO&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;UN CONVOGLIO è UN TRENO SE HA UNA STAZIONE DI PARTENZA E UNA DI ARRIVO&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;UN BIGLIETTO HA UNA STAZIONE DI PARTENZA E UNA DI ARRIVO&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;UNA SUB TRATTA PUò ESSERE PERCORSA SOLO DA UN &quot;CONVOGLIO&quot; ALLA VOLTA&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;UNA SUBTRATTA PUò ESSERE AVAILABLE O OCCUPATA&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pWBKbRSoprsYEjpUjVi2-1">
           <mxGeometry x="-922" y="2" width="501" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="COu18sS3RJWgX7r5hSds-27" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="pWBKbRSoprsYEjpUjVi2-1" source="COu18sS3RJWgX7r5hSds-7" target="YxLc-Z2cT-VTbX0SRDtm-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="389" y="481" as="sourcePoint" />
+            <mxPoint x="549" y="481" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COu18sS3RJWgX7r5hSds-28" value="(1," style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="COu18sS3RJWgX7r5hSds-27">
+          <mxGeometry x="-0.6075" y="2" relative="1" as="geometry">
+            <mxPoint x="8" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
